@@ -13,7 +13,7 @@ La aplicación expone en formato **JSON** un listado de libros almacenados en un
 │
 ├── docker-compose.yml
 ├── Dockerfile
-├── biblio.sql        ← Base de datos lista para importar 🔥
+├── biblio.sql        ← Base de datos lista para importar
 │
 └── /src
     ├── api.php
@@ -45,19 +45,19 @@ docker compose version
 
 Este proyecto utiliza **docker-compose** para levantar:
 
-### ✔ 1) Servidor PHP + Apache
+###  1) Servidor PHP + Apache
 - PHP 8.2  
 - Extensiones mysqli, pdo y pdo_mysql  
 - Servidor Apache  
 - Código ubicado en `/src`
 
-### ✔ 2) MySQL 8
+### 2) MySQL 8
 - Base de datos inicial: `biblio`  
 - Usuario: `root`  
 - Password: `root`  
 - Volumen persistente `db_data`  
 
-### ✔ 3) (Opcional pero recomendado) phpMyAdmin
+### 3) (Opcional pero recomendado) phpMyAdmin
 
 Si quieres incluir phpMyAdmin, añade esto a tu `docker-compose.yml`:
 
@@ -84,7 +84,7 @@ Contraseña: root
 
 ---
 
-# 🧩 Importar la base de datos (biblio.sql)
+#  Importar la base de datos (biblio.sql)
 
 ###  Opción 1 — Importar con phpMyAdmin (más fácil)
 
