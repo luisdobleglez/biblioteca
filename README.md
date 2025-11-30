@@ -1,6 +1,6 @@
 # Biblioteca Virtual API — PHP + MySQL + Docker
 
-API educativa creada para el módulo **IFCD63 — Open Source Back End Web Developer**, cuyo objetivo es mostrar cómo desarrollar y ejecutar una API Back End usando tecnologías Open Source.
+API educativa creada para el módulo, cuyo objetivo es mostrar cómo desarrollar y ejecutar una API Back End usando tecnologías Open Source.
 
 La aplicación expone en formato **JSON** un listado de libros almacenados en una base de datos MySQL y permite visualizar dichos datos desde un frontend en HTML con JavaScript.
 
