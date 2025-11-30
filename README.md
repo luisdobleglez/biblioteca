@@ -69,7 +69,7 @@ phpmyadmin:
     PMA_HOST: db
     PMA_PORT: 3306
   ports:
-    - "8081:80"
+    - "8182:80"
   depends_on:
     - db
 ```
@@ -77,7 +77,7 @@ phpmyadmin:
 Acceso en navegador:
 
 ```
-http://localhost:8081
+http://localhost:8182
 Usuario: root
 Contraseña: root
 ```
@@ -88,7 +88,7 @@ Contraseña: root
 
 ###  Opción 1 — Importar con phpMyAdmin (más fácil)
 
-1. Abrir en navegador: `http://localhost:8081`
+1. Abrir en navegador: `http://localhost:8182`
 2. Entrar con usuario **root**, contraseña **root**
 3. Crear base de datos llamada: `biblio`
 4. Ir a **Importar → Seleccionar archivo**
@@ -122,7 +122,7 @@ Esto iniciará:
 ##  Acceder a la API
 
 ```
-http://localhost/api.php
+http://localhost/8181/api.php
 ```
 
 La salida será un JSON como:
